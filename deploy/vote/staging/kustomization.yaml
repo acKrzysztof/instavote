@@ -6,7 +6,7 @@ patchesStrategicMerge:
 - dploy.yaml
 images:
 - name: schoolofdevops/vote
-  newTag: v66
+  newTag: v3
 configMapGenerator:
 - name: extra-options
   envs:
