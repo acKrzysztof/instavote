@@ -4,3 +4,10 @@ resources:
 - ../base
 patchesStrategicMerge:
 - dploy.yaml
+images:
+- name: schoolofdevops/vote
+  newTag: v66
+configMapGenerator:
+- name: extra-options
+  envs:
+  - options.env
