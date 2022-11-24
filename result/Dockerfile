@@ -1,7 +1,5 @@
 FROM node:8.9-alpine
 
-USER root
-
 RUN mkdir -p /app
 WORKDIR /app
 
