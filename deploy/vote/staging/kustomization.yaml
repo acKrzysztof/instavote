@@ -6,7 +6,7 @@ patchesStrategicMerge:
 - dploy.yaml
 images:
 - name: ackrzysztof/vote
-  newTag: main-1ef90f04-1669313779 #{"$imagepolicy": "flux-system:vote:tag"}
+  newTag: main-987f589d-1669319834 #{"$imagepolicy": "flux-system:vote:tag"}
 configMapGenerator:
 - name: extra-options
   envs:
